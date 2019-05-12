@@ -1,0 +1,173 @@
+{
+  materials: [
+    {
+      name: 'Mat_0',
+      parameters: [
+        {
+          baseColor: 'texture_4_14126322532748253036',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Mat_1',
+      parameters: [
+        {
+          baseColor: 'texture_0_17832851910588591680',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Mat_2',
+      parameters: [
+        {
+          baseColor: 'texture_7_6672996682974157280',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Mat_3',
+      parameters: [
+        {
+          baseColor: 'texture_13_12136749704190523488',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Mat_4',
+      parameters: [
+        {
+          baseColor: 'texture_11_12672105836179371972',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/meiji.obj',
+    name: 'meiji',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata\\texture_7_6672996682974157280.png',
+      name: 'texture_7_6672996682974157280',
+      pipeline_name: 'texture_7_6672996682974157280.png',
+    },
+    {
+      file: 'sampledata\\texture_4_14126322532748253036.png',
+      name: 'texture_4_14126322532748253036',
+      pipeline_name: 'texture_4_14126322532748253036.png',
+    },
+    {
+      file: 'sampledata\\texture_0_17832851910588591680.png',
+      name: 'texture_0_17832851910588591680',
+      pipeline_name: 'texture_0_17832851910588591680.png',
+    },
+    {
+      file: 'sampledata\\texture_13_12136749704190523488.png',
+      name: 'texture_13_12136749704190523488',
+      pipeline_name: 'texture_13_12136749704190523488.png',
+    },
+    {
+      file: 'sampledata\\texture_11_12672105836179371972.png',
+      name: 'texture_11_12672105836179371972',
+      pipeline_name: 'texture_11_12672105836179371972.png',
+    },
+  ],
+  version: '0.54:2',
+}
